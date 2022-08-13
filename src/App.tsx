@@ -6,6 +6,8 @@ import {userSlice} from "./store/reducers/UserSlice";
 import {fetchUsers} from "./store/reducers/ActionsCreators";
 import PostContainer from "./components/PostContainer";
 import classes from './App.module.css'
+import {Route} from "react-router-dom";
+import {AllRoutes} from "./Routing/AllRoutes";
 
 
 
@@ -23,7 +25,7 @@ function App() {
   return (
     <div className={classes.App}>
 
-        <PostContainer />
+        <AllRoutes />
 
 
 
